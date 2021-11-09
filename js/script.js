@@ -303,3 +303,5 @@ const resolveFetch = () => {
     resolve("Fetch done!");
   });
 };
+
+resolveFetch().then(animationTimeline());
